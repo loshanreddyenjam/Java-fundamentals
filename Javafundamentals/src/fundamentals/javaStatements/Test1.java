@@ -7,7 +7,7 @@ public class Test1 {
 //if  and else statements
 		
 		int n1=20;
-		int n2=20;
+		int n2=30;
 		int n3=20;
 		
 		if(n1>=n2 && n1>n3) {

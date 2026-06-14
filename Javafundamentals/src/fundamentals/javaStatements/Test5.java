@@ -14,7 +14,7 @@ public class Test5 {
 		
 
 //		int i=0;
-//		while(true) {     //--------->create infinae loop
+//		while(true) {     //--------->create infinate loop
 //			System.out.println(i);
 //			i++;
 //			
@@ -64,10 +64,10 @@ public class Test5 {
 //		String bnum="";
 //		int digit=0;
 //		while(num!=0) {
-//			digit=num%10;
+//			digit=num%10 //to get the last digit
 //			fnum=digit+" "+fnum;
 //			bnum=bnum+" "+digit;
-//			num=num/10;
+//			num=num/10;  //to remove the last digit
 //		}
 //		System.out.println("forward digit number :"+fnum);
 //		System.out.println("backward digit number :"+bnum);
@@ -89,7 +89,7 @@ public class Test5 {
 //		System.out.println("multiplication of digit  :"+mulval);
 //	==========================================	
 		
-		//palindrome number(revesed)
+		//palindrome number(reversed)
 		int num=434;
 		String fnum=""+num;
 		StringBuffer sb= new StringBuffer(fnum);

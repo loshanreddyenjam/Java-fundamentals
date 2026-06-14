@@ -6,7 +6,7 @@ public class Test3 {
 		
 		// SWITCH STATEMENTS
 		
-		int num=4;
+		byte num=4;
 		switch(num) {
 		
 	case 1:

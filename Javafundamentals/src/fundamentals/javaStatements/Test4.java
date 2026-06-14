@@ -66,17 +66,28 @@ public class Test4 {
 		
 		
 		//fibinacis series
+//		int fval=0;
+//		int sval=1;
+//		
+//		System.out.print(fval+"   "+sval+"  ");
+//		
+//		for(int nval=fval+sval;nval<=100;fval=sval,sval=nval,nval=fval+sval) {
+//			System.out.print(nval+"   ");
+//		}
 		
+	//fibinaccis series upto 100 values..	
 		int fval=0;
 		int sval=1;
 		
 		System.out.print(fval+"   "+sval+"  ");
 		
-		for(int nval=fval+sval;nval<=100;fval=sval,sval=nval,nval=fval+sval) {
+		for(int i=0;i<=100;i++) {
+			int nval=fval+sval;
 			System.out.print(nval+"   ");
-		}
-		
+			fval=sval;
+			sval=nval;
 		
 	}
 
+}
 }

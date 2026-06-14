@@ -33,7 +33,7 @@ class Topic1{
 		void m2() {
 			int z=30;//local variable to m2()
 			System.out.println(x+"  class level varible value");//--->classlevel variables available upto respective class..
-		//	System.out.println(y+"local variable value");    --->local variables  upto  available upto respective method only..
+		//	System.out.println(y+"local variable value");    --->local variables  available upto respective method only..
 			System.out.println(z+"  local variable  value of m2()");
 		}
 		
@@ -62,7 +62,7 @@ class Topic1{
 		
 		//string literals
 		String s1="loshan reddy";
-		String s2=" enjam 'loshan' reddy";//single quotation inside the string
+		String s2=" enjam 'loshan' reddy";//single quotation  is directly possible inside the string 
 		String s3="enjam \"loshan\" reddy";//double quotation inside the string
 		
 }
